@@ -20,7 +20,7 @@ if USE_CACHE:
 
 @app.get('/health')
 def health():
-    return {'status': 'OK'}
+    return {'status': 'healthy and ready'}
 
 
 class PredictRequest(BaseModel):
